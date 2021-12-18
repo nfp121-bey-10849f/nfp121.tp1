@@ -55,6 +55,7 @@ public class Picture {
         sun.moveVertical(-10);
         sun.changeSize(60);
         sun.makeVisible();
+        
     }
 
     /**
@@ -79,8 +80,13 @@ public class Picture {
             wall.changeColor("red");
             window.changeColor("black");
             roof.changeColor("green");
-            sun.changeColor("yellow");
+            sun.changeColor("blue");
         }
+    }
+    
+    public void sunSet(int n){
+        if (wall != null) // only if it's painted already...
+            sun.slowMoveVertical(n);
     }
 
 }
