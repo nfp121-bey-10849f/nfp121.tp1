@@ -19,19 +19,6 @@ public class Test{
         circle.changeColor("yellow");
         circle.makeVisible();
         
-        circle.makeInvisible();
-        circle.moveRight();
-        circle.moveLeft();
-        circle.moveUp();
-        circle.moveDown();
-        circle.moveHorizontal(10);
-        circle.moveVertical(15);
-        circle.slowMoveHorizontal(5);
-        circle.slowMoveVertical(10);
-        circle.changeSize(40);
-        circle.changeColor("yellow");
-        circle.makeVisible();
-        
         square.makeInvisible();
         square.moveRight();
         square.moveLeft();
