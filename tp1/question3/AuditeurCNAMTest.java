@@ -62,6 +62,7 @@ public class AuditeurCNAMTest extends junit.framework.TestCase {
         
     }
     
+    //test getters
     public void test_getters(){
         assertTrue(auditeur1.nom() == "Chér$fane");
         assertTrue(auditeur1.prenom() == "Anthony");
